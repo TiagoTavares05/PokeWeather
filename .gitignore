@@ -1,0 +1,6 @@
+trainers.db
+__pycache__/
+*.pyc
+.env
+vscode/
+.idea/
