@@ -172,10 +172,6 @@ def main_menu():
             elif op == 6:
                 try:
                     cidade = input("Digite o nome da cidade: ")
-                    if not cidade or not cidade.isalpha():
-                        input("Treinador não encontrado!!")
-                        clear()
-                        continue
                     temp = cidade_temperatura(cidade.lower())
                     if temp >= 30:
                         pokemon_name, pokemon_type = get_pokemon("charmander")
