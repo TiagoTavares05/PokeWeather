@@ -31,4 +31,4 @@ Projeto feito em Python que utiliza as APIs da **PokeAPI** e da **OpenWeatherMap
 
 5. Rode o projeto:
    
-   python main.py
+   main.py
